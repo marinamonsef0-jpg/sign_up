@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    gap: 10px;
+}
+.container{
+    width: 50%;
+}
+.container img{
+    width:750px;
+    height: 750px;
+}
+.line1{
+     position: absolute;
+    top: 25%;      /* نزلي أو ارفعي الرقم حسب المكان اللي عايزاه */
+    left: 19%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+}
+.line2{
+    position: absolute;
+    top: 30%;      /* نزلي أو ارفعي الرقم حسب المكان اللي عايزاه */
+    left: 19%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+}
+.line3{
+    position: absolute;
+    top: 35%;      /* نزلي أو ارفعي الرقم حسب المكان اللي عايزاه */
+    left: 14%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+}
+
+.welcome{
+    position: absolute;
+    top: 15%;      /* نزلي أو ارفعي الرقم حسب المكان اللي عايزاه */
+    left: 15%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.contain{
+    width: 50%;
+}
+.contain h1{
+   text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.create{
+    color: rgb(173, 5, 5);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+     text-align: center;
+}
+.btn{
+    border: 3px solid  rgb(173, 5, 5);
+    background-color: rgb(173, 5, 5);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+.line4{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.icons img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icons img:hover{
+    transform: scale(1.1);
+}
+   
